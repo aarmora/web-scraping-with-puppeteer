@@ -1,0 +1,33 @@
+{
+  "name": "scraping-with-puppeteer",
+  "version": "1.0.0",
+  "description": "Web scraping with Puppeteer!",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aarmora/web-scraping-with-puppeteer.git"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "web",
+    "scraping",
+    "puppeteer"
+  ],
+  "author": "Jordan Hansen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aarmora/web-scraping-with-puppeteer/issues"
+  },
+  "homepage": "https://github.com/aarmora/web-scraping-with-puppeteer#readme",
+  "dependencies": {
+    "puppeteer": "^5.5.0"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^5.4.2",
+    "typescript": "^4.1.3"
+  }
+}
